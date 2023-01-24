@@ -3,7 +3,13 @@ import React from 'react'
 const LandingPage = () => {
   return (
     <div className='lp'>
-        <h1>Web Creations</h1>
+        <div className='title'>
+        <h1 >WEB CREATIONS</h1>
+        </div>
+        <div className='button'>
+            <button className='btn'>Watch Video</button>
+            <button className='btn'>View More</button>
+        </div>
         </div>
   )
 }
