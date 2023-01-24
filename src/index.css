@@ -14,13 +14,50 @@ code {
 .main ul{
   float: right;
   list-style-type: none;
-  margin: 20px;
+  margin: 20px; 
+
 }
+
 .main ul li{
   display: inline-block;
   color:#fff;
-  padding:5px 20px;
-  border:1px solid#fff;
+  padding:5px 20px; 
+  border:1px solid transparent;
   margin: 5px;
+  
+}
+.home{
+  /* background-color: #fff; */
+  color:black;
+}
+/* .main ul:hover{
+  background-color: #fff;
+  color:black;
+} */
+.app{
+  width: 1200px;
+  height: 100%;
+}
+.title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+.title h1{
+  color:#fff;
+  font-size: 70px;
+}
+.button{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+.btn{
+  border:1px solid #fff;
+  padding: 10px 30px;
+  color:black;
+  margin:5px
   
 }
