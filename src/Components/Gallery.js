@@ -5,11 +5,13 @@ import snorkelling from '../Assests/snorkelling.jpg';
 import camping from '../Assests/camping.jpg';
 import bonfire from '../Assests/bonfire.jpg';
 import kayaking from '../Assests/kayaking.jpg';
+import  './Gallery.css'
 
 const Gallery = () => {
   return (
-    <div>
-      Gallery
+    <div className='gallery'>
+      
+      <div className='div1'>
       <div>
         <img src={hiking} alt='Hiking'/>
         <h1>Hiking</h1>
@@ -25,6 +27,8 @@ const Gallery = () => {
         <h1>Camping</h1>
         <p></p>
       </div>
+      </div>
+      <div className='div2'>
       <div>
         <img src={snorkelling} alt='Snorkelling'/>
         <h1>snorkelling</h1>
@@ -40,7 +44,7 @@ const Gallery = () => {
         <h1>Kayaking</h1>
         <p></p>
       </div>
-      
+      </div>
       </div>
   )
 }
