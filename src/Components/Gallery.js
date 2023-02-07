@@ -18,7 +18,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$65</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       <div>
         <img src={boatriding} alt='Boatriding'/>
@@ -26,7 +26,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$50</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       <div>
         <img src={camping} alt='Camping'/>
@@ -34,7 +34,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$55</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       </div>
       <div className='div2'>
@@ -44,7 +44,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$30</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       <div>
       <img src={bonfire} alt='bonfire'/>
@@ -52,7 +52,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$55</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       <div>
       <img src={kayaking} alt='Kayaking'/>
@@ -60,7 +60,7 @@ const Gallery = () => {
         <h4>Mon Fri</h4>
         <h5>3hrs</h5>
         <h5>$45</h5>
-        <button>Book Now</button>
+        <button className='btn'>Book Now</button>
       </div>
       </div>
       </div>
