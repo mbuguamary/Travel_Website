@@ -26,6 +26,22 @@ const About = () => {
             <h5>Relax</h5>
            </div>
             </div> 
+            <div className='testimonials'>
+                <h1>Testimonials</h1>
+             <div className='test'>
+                <p>The place is awesome, we enjoyed the stay. The Resort is well planned, clean and very impressive. The staff is very well trained to help customers. We could not have thought of a more beautiful and picturesque property to spend a couple of days together right after our wedding.</p>
+             </div>
+             <div className='test'>
+                <p>We had our company annual offsite at Royal Cliff in Pattaya. Royal Cliff was the perfect choice for us: there are multiple large event spaces for various activities and the great staff made sure the events went smoothly. The hotel food was also of a very high quality with an impressive choice at breakfast. Combined with a stunning view of the sea and a private beach, we couldn’t have asked for a better place for our company. Thank you for making our trip so special.</p>
+             </div>
+             <div className='test'>
+            <p> The hotel is meticulous in its planning, providing excellent décor, signage and the like. Importantly, they never seemed to tire of the constant emails from an equally meticulous event manager. Always prompt and attentive.
+
+Particularly, Ruchika Longani and Danaithep Chanhom were excellent in their roles. They and their team managed both events with the utmost professionalism. Highly competent and skilled, they were a pleasure to work with.
+
+I recommend Royal Cliff Resort to anybody enquiring.</p>
+             </div>
+            </div>
         </div>
       
         
