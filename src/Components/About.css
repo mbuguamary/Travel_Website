@@ -13,3 +13,13 @@
     height: 50vh;
     margin-bottom: 20px;
 }
+.test {
+    border-style: solid;
+    border-radius: 15px;
+    background-color: grey;
+    border-color: aliceblue;
+    border: 10px 10px solid;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
