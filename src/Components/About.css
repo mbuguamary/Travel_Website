@@ -1,0 +1,15 @@
+.about{
+    padding: 10px 10%;
+}
+
+.image2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 1rem; 
+}
+.img{
+    
+    width: 95%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
