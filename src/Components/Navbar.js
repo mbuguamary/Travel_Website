@@ -10,11 +10,12 @@ const Navbar = () => {
           
          <NavLink to='/' className='navlink'> Cliff Adventures</NavLink>
          
-            <NavLink className='link'>Home</NavLink> 
-           
+             
+            < NavLink to="/About" className='link'>About</NavLink> 
            <NavLink  to="/Gallery" className='link'> Gallery </NavLink>
-          < NavLink to="/About" className='link'>About</NavLink> 
-            <NavLink className='link'>Contact </NavLink>
+           <NavLink className='link'>Book</NavLink>
+            <NavLink to="/Contact" className='link'>Contact </NavLink>
+            {/* <NavLink className='link'>Sign Up</NavLink> */}
          </ul>
         </div>
     </div>
