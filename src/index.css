@@ -11,26 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.main ul{
+ .main ul{
   float: right;
-  list-style-type: none;
+ 
   margin: 20px; 
 
-}
+} 
 
-.main ul li{
+.link{
+  text-decoration: none;
   display: inline-block;
-  color:#fff;
+  color:red;
   padding:5px 20px; 
   border:1px solid transparent;
   margin: 5px;
   
 }
+.link:hover{
+  color: black;
+  background-color: azure;
+}
 .home{
   /* background-color: #fff; */
   color:black;
 }
-/* .main ul:hover{
+/* .main ul:hover
   background-color: #fff;
   color:black;
 } */
@@ -44,10 +49,7 @@ code {
   left:50%;
   transform: translate(-50%,-50%)
 }
-.title h1{
-  color:#fff;
-  font-size: 70px;
-}
+
 .button{
   position:absolute;
   top:60%;
@@ -60,4 +62,11 @@ code {
   color:black;
   margin:5px
   
+}
+.navlink{
+  margin-right: 400px;
+  text-decoration: none;
+  justify-content: left;
+  font-size: 50px;
+  color: slategrey;
 }
