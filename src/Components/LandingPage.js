@@ -1,16 +1,25 @@
-import React from 'react'
+import React from 'react';
+import background from '../Assests/adv1.webp';
 
 const LandingPage = () => {
+  const myStyle={
+    backgroundImage: `url(${background})` ,
+    height:'100vh',
+    // marginTop:'-70px',
+    // fontSize:'50px',
+     backgroundSize: 'cover',
+     backgroundRepeat: 'no-repeat',
+  }
   return (
-    <div className='lp'>
+    <div className='lp' style={myStyle}>
         <div className='title'>
-        <h1 >WEB CREATIONS</h1>
+        
         </div>
-        <div className='button'>
-            <button className='btn'>Watch Video</button>
-            <button className='btn'>View More</button>
+        
+        
+        
         </div>
-        </div>
+       
   )
 }
 
