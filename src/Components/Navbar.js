@@ -5,12 +5,16 @@ const Navbar = () => {
   return (
     <div>
         <div className='main'>
+       
          <ul>
-            <li className='home'>Home</li>
-            <li>Services</li>
-           <NavLink to="/Gallery"> <li>Gallery</li> </NavLink>
-          < NavLink to="/About"><li>About</li></NavLink> 
-            <li>Contact</li>
+          
+         <NavLink to='/' className='navlink'> Cliff Adventures</NavLink>
+         
+            <NavLink className='link'>Home</NavLink> 
+           
+           <NavLink  to="/Gallery" className='link'> Gallery </NavLink>
+          < NavLink to="/About" className='link'>About</NavLink> 
+            <NavLink className='link'>Contact </NavLink>
          </ul>
         </div>
     </div>
