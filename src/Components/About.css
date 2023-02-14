@@ -40,3 +40,13 @@ h4{
     
   
 }
+.text{
+    flex-wrap: wrap;
+}
+@media (max-width:780px) {
+
+    .footer{
+        
+        flex-wrap: wrap;
+    }
+}
