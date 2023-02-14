@@ -11,21 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- .main ul{
+ .main ul {
   float: right;
  
-  margin: 20px; 
+  /* margin: 20px;  */
 
 } 
+.main{
+  background-color: slategrey;
+ 
+}
 
 .link{
+ 
   text-decoration: none;
   display: inline-block;
   color:red;
   padding:5px 20px; 
   border:1px solid transparent;
   margin: 5px;
-  
+ 
 }
 .link:hover{
   color: black;
@@ -64,18 +69,17 @@ code {
   
 }
 .navlink{
-  margin-right: 400px;
-  text-decoration: none;
-  justify-content: left;
+ 
+  text-decoration: none; 
   font-size: 50px;
-  color: slategrey;
+ 
 }
-.contact{
+.contact,.book{
   display: flex;
    flex-direction: column; 
   align-items: center;
 }
- .contact input,textarea{
+  input,textarea,select{
    display: block; 
   margin: 10px; 
   width: 30vw;
@@ -84,7 +88,8 @@ code {
 textarea{
   height: 10vh;
 }
-.contact button{
+ .contact button,.book button{
   height:5vh;
-  width:7%
+  width:7%;
+  margin-bottom: 70px;
 }
