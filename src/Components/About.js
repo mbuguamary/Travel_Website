@@ -9,6 +9,11 @@ import './About.css';
 const About = () => {
   return (
     <div className='about'>
+      <div>
+         <h3>Cliff Adventures</h3>
+         <p>Adventure travel allows you to connect with nature, improving your mental state so you can feel your best in every sense. And sharing an adventure with locals or other travelers is always the perfect way to bond quickly over incredible experiences and make fast friends</p>
+         <p>Cliff Adventure is the go-to source for information on adventure travel that prioritizes sustainability, serves as a force for good, and transforms people and places. From research and trends to best travel practices, ideal gear, and destinations and operators with outstanding commitments to responsible travel, we have everything you need to make sure your adventures align with your values.</p>
+      </div>
         <div className='image'>
         <img className='img' src={about}/>
         </div>
