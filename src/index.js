@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 import Gallery from './Components/Gallery';
 import About from './Components/About';
+import Book from './Components/Book';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes,Route } from 'react-router-dom'
 import Contact from './Components/Contact';
@@ -11,12 +14,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar/>
     <Routes>
     <Route path ="/" element={<App/>} />
     <Route path = "/Gallery" element={<Gallery/>}/>
     <Route path = "/About" element={<About />}/>
     <Route path = "/Contact" element={<Contact />}/>
+    <Route path='Book' element={<Book />}/>
     </Routes>
+    <Footer />
     </BrowserRouter>
     
 
