@@ -8,7 +8,7 @@ const Contact = () => {
        <input placeholder='subject'/>
        <textarea placeholder='message'/>
        <button>Submit</button>
-        
+       
         </div>
   )
 }

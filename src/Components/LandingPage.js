@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '../Assests/adv1.webp';
+import background from '../Assests/adv.1.jpg';
 
 const LandingPage = () => {
   const myStyle={

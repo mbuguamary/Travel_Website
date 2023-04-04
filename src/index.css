@@ -93,6 +93,9 @@ textarea{
   width:10%;
   margin-bottom: 70px;
 }
+.menu-icon {
+  display: none;
+}
 @media (max-width:780px) {
   .main{
     max-width: 100%;
@@ -104,8 +107,16 @@ textarea{
     font-size: 30px;
    
   }
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
   .link{
-    display: block;
+    display: none;
+   
     
     
   }
@@ -114,5 +125,14 @@ textarea{
   }
   .contact button,.book button{
     width:15%;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
   }
 }
